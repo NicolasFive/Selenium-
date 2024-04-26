@@ -33,7 +33,6 @@ def run(endEvent=Event()):
     )
     reclusiveFinding(driver)
     print("完成爬取")
-    endEvent.wait()
 
 
 def reclusiveFinding(driver):
